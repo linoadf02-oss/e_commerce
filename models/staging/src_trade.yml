@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: trade_source
+    database: BANKING_DB
+    schema: TRANSFORM_SCHEMA
+    tables:
+      - name: raw_trade
